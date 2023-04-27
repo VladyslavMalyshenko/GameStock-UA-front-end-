@@ -1,0 +1,45 @@
+.profile_logo_page img {
+	border-radius: 999px;
+	scale: 50%;
+}
+
+.user_name__txt h3 {
+	color: green;
+}
+
+.shown_flags ul {
+	list-style: none;
+	display: inline-flex;
+	justify-content: space-between;
+	width: 300px;
+}
+
+.shown_flags li {
+	background-color: rgba(240, 240, 240, 0.9);
+	border-radius: 6px;
+	transition: 0.3s;
+}
+
+.shown_flags li:hover {
+	background-color: rgba(180, 180, 180, 0.9);
+}
+
+.shown_flags a {
+	text-decoration: none;
+	color: black;
+}
+
+.curent_balance {
+	font-family: monospace;
+	padding: none;
+	display: inline-flex;
+	background-color: rgba(240, 240, 240, 1.0);
+	border-radius: 16px;
+	padding: none;
+	margin-left: 30px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
