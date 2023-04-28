@@ -78,6 +78,11 @@ body {
     color: black;
 }
 
+.navbar_notifications_button {
+    text-decoration: none;
+    color: black;
+}
+
 /*Card*/
 
 .card_container {
@@ -477,6 +482,19 @@ body {
 
 /*Notifications page*/
 
+.notification_window {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.users_window {
+    height: 867px;
+    width: 300px;
+    border: 1px solid rgba(180, 180, 180, 1);
+    border-radius: 6px
+}
+
 .notifications_h1_text {
     font-size: 30px;
     font-weight: bold;
@@ -489,4 +507,28 @@ body {
 
 .user_chat_prof {
     cursor: pointer;
+    display: flex;
+    border-bottom: 1px solid rgba(180, 180, 180, 1);
+}
+
+.user_detail_chat_prof {
+    display: flex;
+    flex-direction: column
+}
+
+.message_window {
+    height: 867px;
+    width: 575px;
+    border: 1px solid rgba(180, 180, 180, 1);
+    border-radius: 6px
+}
+
+.chat_input_notifications {
+    display: flex;
+    border: 1px solid rgba(180, 180, 180, 1);
+    position: absolute; bottom: 40px;
+    width: 575px;
+    margin-left: -1px;
+    justify-content: end;
+    border-radius: 6px;
 }
