@@ -430,6 +430,24 @@ body {
     width: 400px;
 }
 
+.my_messages {
+    width: 200px;
+    height: auto;
+    border: 2px solid rgba(180, 180, 180, 1);
+    border-radius: 4px;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+
+.seller_messages {
+    width: 200px;
+    height: auto;
+    border: 2px solid rgba(180, 180, 180, 1);
+    border-radius: 4px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
 .chat_input {
     border-top: 2px solid rgba(180, 180, 180, 1);
     display: flex;
@@ -455,4 +473,20 @@ body {
 .send_button_chat {
     margin-top: 7px;
     margin-left: 10px;
+}
+
+/*Notifications page*/
+
+.notifications_h1_text {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid rgba(180, 180, 180, 1)
+}
+
+.user_chat_prof {
+    cursor: pointer;
 }
